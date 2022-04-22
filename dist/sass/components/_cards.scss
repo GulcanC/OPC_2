@@ -1,0 +1,139 @@
+.cards {
+
+    &--1,
+    &--2,
+    &--3,
+    &--4 {
+        margin-bottom: $margin-medium;
+        height: 100%;
+        border-radius: 1.5rem;
+        box-shadow: $box-shadow;
+        position: relative;
+
+        @include animation-translate;
+
+        @include desktop-only {
+            width: 50rem;
+        }
+
+        @include tablet-only {
+            width: 50rem;
+        }
+    }
+
+    &--detail {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        color: $color-tertiary-dark;
+        font-weight: bold;
+        background-color: $color-tertiary;
+        padding: .8rem 1.8rem;
+        border-radius: .25rem;
+    }
+
+    &--body {
+        background: $color-white;
+        border-radius: 0 0 1rem 1rem;
+        @include row-space;
+        padding: $padding-small;
+        font-family: "Roboto";
+        position: relative;
+    }
+
+    &--icons {
+
+        position: absolute;
+        bottom: 2rem;
+        right: 2rem;
+        background: transparent;
+        width: 2rem;
+        height: 2rem;
+        background: transparent;
+
+        &>i {
+            position: absolute;
+            bottom: .1rem;
+            right: .1rem;
+
+        }
+
+        &:hover>.cards--icons--empty {
+            opacity: 0;
+        }
+
+        &--fill {
+            opacity: 0;
+
+            &:hover {
+                transform: scale(0.87);
+                color: transparent;
+                @include gradient-bg;
+                -webkit-background-clip: text;
+                background-clip: text;
+                opacity: 1;
+                font-size: 2.5rem;
+                bottom: 0;
+            }
+
+        }
+    }
+
+    &--block--1,
+    &--block--2 {
+        @include desktop-only {
+            @include row-center;
+            gap: 3rem;
+        }
+
+        @include tablet-only {
+            @include row-center;
+            gap: 3rem;
+        }
+
+    }
+
+
+    &--image--1 {
+        background-image: url("../../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+        @include card-images;
+    }
+
+    &--image--2 {
+        background-image: url("../../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+        @include card-images;
+    }
+
+    &--image--3 {
+        background-image: url("../../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+        @include card-images;
+    }
+
+    &--image--4 {
+        background-image: url("../../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+        @include card-images;
+    }
+}
+
+.header--menu--img{
+
+&__1 {
+    background-image: url("../../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+    @include card-images-menu;
+}
+
+&__2 {
+    background-image: url("../../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+    @include card-images-menu;
+}
+
+&__3 {
+    background-image: url("../../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+    @include card-images-menu;
+}
+
+&__4 {
+    background-image: url("../../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+    @include card-images-menu;
+}
+}

@@ -1,0 +1,39 @@
+ /* The list */ 
+
+ $font-families:(roboto:"Roboto", shrikhand:"Shrikhand");
+ $font-colors:(white:$color-white, black:$color-black, tertiary:$color-tertiary);
+ $font-sizes:(small:1.3rem, medium:1.6rem, large:2rem, xlarge:3rem);
+ $border-radius:(small:.5rem, normal:.8rem, large:1rem);
+ $bg-colors:(light-grey:$light-grey, dark-grey:$dark-grey, black:$color-black );
+ 
+ /* FONT SIZE  TEXT AND ICONS */ 
+ 
+ @each $key1,
+ $value1 in $font-sizes {
+     .text--#{$key1} {
+         font-size: $value1;
+     }
+     .icon--#{$key1} {
+         font-size: $value1;
+     }
+ }
+ 
+ /* FONT FAMILY */
+ 
+ @each $key2,
+ $value2 in $font-families {
+     .font--#{$key2} {
+         font-family: $value2;
+     }
+ }
+ 
+ 
+ /* FONT COLOR */
+ 
+ @each $key4,
+ $value4 in $font-colors {
+     .color--#{$key4} {
+         color: $value4;
+     }
+ }
+ 
