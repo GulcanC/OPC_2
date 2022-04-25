@@ -31,7 +31,7 @@ Pour ce projet, mon site web, Ohmyfood!, est le site web d’une jeune startup q
 
 
 
-### ☑️ Pour commencer à coder
+### :large_orange_diamond: Pour commencer à coder
 
 1- Télécharger Node.js
 [Download Node.jsDo](https://nodejs.org/en/download/)
