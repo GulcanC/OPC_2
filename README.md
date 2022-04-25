@@ -48,10 +48,11 @@ Pour ce projet, mon site web, Ohmyfood!, est le site web d’une jeune startup q
 4- Télécharger Sass
 
     npm install -g sass
-
- <summary><details>Regardez le fichier package.json</details>   
+    
+<details>
+ <summary>Regardez dans le fichier de package.json</summary>
 ![image](https://user-images.githubusercontent.com/80323415/165037179-296f4cc8-3523-4c43-be1e-a7729c040017.png)
-</summary>
+</details>
 
 
 
