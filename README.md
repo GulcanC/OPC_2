@@ -34,7 +34,7 @@ Pour ce projet, mon site web, Ohmyfood!, est le site web d’une jeune startup q
 ### ☑️ Pour commencer à coder
 
 1- Télécharger Node.js
-[wnload Node.jsDo](https://nodejs.org/en/download/)
+[Download Node.jsDo](https://nodejs.org/en/download/)
 
 2- Vérifier l'installation en vérifiant la version
 
