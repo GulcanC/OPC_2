@@ -78,7 +78,7 @@ Pour ce projet, mon site web, Ohmyfood!, est le site web d’une jeune startup q
 
 
 <details>
- <summary>**Regardez dans le fichier de package.json**</summary>
+ <summary>Regardez dans le fichier de package.json</summary>
 ![image](https://user-images.githubusercontent.com/80323415/165049873-24dd35f5-6e1b-47c2-97f1-b97f06978a21.png)
 </details>
 
