@@ -7,9 +7,15 @@ Dynamisez une page web avec des animations CSS
 🔗 https://gulcanc.github.io/OPC_2/
 
 ### :large_orange_diamond: A Propos du Projet
-Au sein du Projet n°2 du parcours Développeur Web chez OpenClassrooms j'ai realizé un site web responsive en utilisant les langages CSS, HTML et avec un préprocesseur CSS appelé Sass,une technologie qui améliore votre codebase et vous simplifie la vie!
+Au sein du Projet n°2 du parcours Développeur Web chez OpenClassrooms j'ai realizé un site web responsive en utilisant les langages CSS3, HTML5 et avec un préprocesseur CSS appelé Sass. 
 
-Ce projet est le choix parfait pour apprendre et pratiquer les media queries et les techniques de boîte flexible, car la version mobile et la version desktop sont très différentes. Pour chaque version, afin de rendre parfaitement mon projet dans le navigateur, j'ai fréquemment utilisé les paires propriété/valeur suivantes pour les éléments parents et les éléments enfants:
+**Sass** signifie Syntactically Awesome Style Sheet, une technologie qui améliore mon codebase et je simplifie la vie! 
+
+D'ailleurs, j'ai utilisé **autoprixer** pour ce projet. **Autoprefixer** est un plugin qui vous évitera de -webkit-, -o- et -moz-. Il ajoute automatiquement des préfixes à votre CSS. Il vous suffit de lui fournir une feuille CSS et il passera par là pour ajouter les préfixes si nécessaire.
+
+Par ai
+
+
 
 * Pour les éléments parents:
 
