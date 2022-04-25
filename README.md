@@ -7,7 +7,9 @@ Dynamisez une page web avec des animations CSS
 🔗 https://gulcanc.github.io/OPC_2/
 
 ### :large_orange_diamond: A Propos du Projet
-Au sein du Projet n°2 du parcours Développeur Web chez OpenClassrooms j'ai créer un site web responsive. Ce projet est le choix parfait pour apprendre et pratiquer les media queries et les techniques de boîte flexible, car la version mobile et la version desktop sont très différentes. Pour chaque version, afin de rendre parfaitement mon projet dans le navigateur, j'ai fréquemment utilisé les paires propriété/valeur suivantes pour les éléments parents et les éléments enfants:
+Au sein du Projet n°2 du parcours Développeur Web chez OpenClassrooms j'ai realizé un site web responsive en utilisant les langages CSS, HTML et avec un préprocesseur CSS appelé Sass,une technologie qui améliore votre codebase et vous simplifie la vie!
+
+Ce projet est le choix parfait pour apprendre et pratiquer les media queries et les techniques de boîte flexible, car la version mobile et la version desktop sont très différentes. Pour chaque version, afin de rendre parfaitement mon projet dans le navigateur, j'ai fréquemment utilisé les paires propriété/valeur suivantes pour les éléments parents et les éléments enfants:
 
 * Pour les éléments parents:
 
