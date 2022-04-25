@@ -13,55 +13,22 @@ Au sein du Projet n°2 du parcours Développeur Web chez OpenClassrooms j'ai rea
 
 D'ailleurs, j'ai utilisé **autoprixer** pour ce projet. **Autoprefixer** est un plugin qui vous évitera de -webkit-, -o- et -moz-. Il ajoute automatiquement des préfixes à votre CSS. Il vous suffit de lui fournir une feuille CSS et il passera par là pour ajouter les préfixes si nécessaire.
 
-Par ai
+Par ailleurs, j'ai utilisé **les pages github** afin de mettre en ligne mon site web.
 
-
-
-* Pour les éléments parents:
-
-  display:flex
-  
-  flex-direction: row | row-reverse | column | column-reverse
-  
-  flex-wrap: nowrap | wrap | wrap-reverse
-  
-  flex-flow: column wrap
-  
-  justify-content: flex-start | flex-end | center | space-between | space-around
-  
-  align-items: stretch | flex-start | flex-end | center | baseline 
-  
-* Pour les éléments enfants:
-
-  flex: none |  <'flex-grow'> <'flex-shrink'>? || <'flex-basis'>
-  
-  flex:1
-  
-  flex:2
-
-Pour ce projet, mon site web est le site web d’une petite entreprise proposant un outil de planification de vacances. Mon site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Les hébergements peuvent également être filtrés par thématique, par exemple leur budget ou leur  ambiance.
+Pour ce projet, mon site web, Ohmyfood!, est le site web d’une jeune startup qui voudrait s'imposer sur le marché de la restauration et qui répertorie les menus de restaurants gastronomiques. 
 
 ### :large_orange_diamond: Les Objectifs du Projet
 
-💧 Découper et d’intégrer une maquette 
+💧 L'objectif est de développer un site 100% mobile et qui consultera également une tablette et un ordinateur sans perdre en lisibilité et en vitesse de chargement
 
-💧 Traduire la maquette en langage web, c’est-à-dire en HTML et en CSS
+💧 La validition du code auprès du W3C [La validation pour HTML](https://validator.w3.org/) | [La validation pour CSS](https://jigsaw.w3.org/css-validator/)
 
-💧 Créer un site web qui consultera à la fois sur un portable, une tablette ou un ordinateur sans perdre en lisibilité et en vitesse de chargement
+💧 Pratiquer le préprocesseur CSS appelé Sass, Syntactically Awesome Style Sheet 
 
-💧 La validitıon du code auprès du W3C [La validation pour HTML](https://validator.w3.org/) | [La validation pour CSS](https://jigsaw.w3.org/css-validator/)
+💧 Utiliser **@keyframes** and **@mixin** de Sass pour des animations
 
-💧 Pratiquer le technique flex box
+💧 Utiliser des commandes de Git et **les pages github** afin de mettre en ligne mon site web.
 
-💧 Pratiquer les sélecteurs CSS et les balises HTML
-
-💧 Utiliser les cartes et les images d’arrière-plan dans le projet
-
-💧 Utiliser FontAwsom icons
-
-💧 Création d'une barre de navigation
-
-💧 Utiliser la liste non ordonnée
 
 
 ### ☑️ Les Techniques Utilisés
