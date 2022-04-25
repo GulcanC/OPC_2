@@ -60,6 +60,18 @@ Pour ce projet, mon site web, Ohmyfood!, est le site web d’une jeune startup q
 7- Lancez autoprefixer
 
     npm run prefix
+    
+8- Pousser le projet vers gitHub :
+
+    git init 
+    git add . 
+    git status 
+    git commit -m "First commit" 
+    git remote add origin URL 
+    git push -u origin master
+    
+9- 
+
 
 <details>
  <summary>Regardez dans le fichier de package.json</summary>
