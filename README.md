@@ -70,12 +70,16 @@ Pour ce projet, mon site web, Ohmyfood!, est le site web d’une jeune startup q
     git remote add origin URL 
     git push -u origin master
     
-9- 
+9- Créer gitHub pages
+
+    npm i gh-pages
+    
+    npm run deploy 
 
 
 <details>
- <summary>Regardez dans le fichier de package.json</summary>
-![image](https://user-images.githubusercontent.com/80323415/165037179-296f4cc8-3523-4c43-be1e-a7729c040017.png)
+ <summary>**Regardez dans le fichier de package.json**</summary>
+![image](https://user-images.githubusercontent.com/80323415/165049873-24dd35f5-6e1b-47c2-97f1-b97f06978a21.png)
 </details>
 
 
