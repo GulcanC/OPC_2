@@ -79,6 +79,19 @@
   font-family: "Shrikhand";
 }
 
+/* FONT COLOR */
+.color--white {
+  color: #fff;
+}
+
+.color--black {
+  color: rgb(35, 33, 33);
+}
+
+.color--tertiary {
+  color: #99E2D0;
+}
+
 *,
 *::after,
 *::before {
@@ -101,13 +114,6 @@ h3 {
 
 P {
   font-size: 1.4rem;
-}
-
-.color--white {
-  color: #fff;
-}
-.color--black {
-  color: rgb(35, 33, 33);
 }
 
 .btn {

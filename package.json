@@ -1,14 +1,19 @@
 {
   "name": "p3_coskun_gulcan",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./public/css/style.css",
-    "prefix":"postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed"
+    "sass": "sass --watch ./dist/sass/main.scss:./dist/public/css/style.css",
+    "prefix": "postcss ./dist/public/css/style.css --use autoprefixer -d ./public/css/prefixed",
+    "deploy":"gh-pages -d dist"
   },
   "keywords": [],
-  "author": "",
+  "author": "GULCAN COSKUN",
   "license": "ISC",
-  "browserslist":"last 4 versions"
+  "browserslist": "last 4 versions",
+  "homepage": "https://GulcanC.github.io/OPC_2",
+  "description": "OPENCLASROOMS PROJECT OHMYFOOD",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }

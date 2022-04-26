@@ -7,19 +7,29 @@
 }
 
 html {
-   
+
     font-size: 62.5%;
 }
 
 body {
     box-sizing: border-box;
-   
+
 }
 
-h3{
+h3 {
     font-size: 1.5rem;
 }
 
-P{
+P {
     font-size: 1.4rem;
+}
+
+.color {
+    &--white {
+        color: $color-white;
+    }
+
+    &--black {
+        color:$color-black;
+    }
 }
