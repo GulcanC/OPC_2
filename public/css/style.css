@@ -16,6 +16,11 @@
     width: 100%;
     opacity: 0.9;
   }
+  99% {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+  }
   100% {
     height: 0%;
     width: 0%;
@@ -74,19 +79,6 @@
   font-family: "Shrikhand";
 }
 
-/* FONT COLOR */
-.color--white {
-  color: #fff;
-}
-
-.color--black {
-  color: rgb(35, 33, 33);
-}
-
-.color--tertiary {
-  color: #99E2D0;
-}
-
 *,
 *::after,
 *::before {
@@ -109,6 +101,13 @@ h3 {
 
 P {
   font-size: 1.4rem;
+}
+
+.color--white {
+  color: #fff;
+}
+.color--black {
+  color: rgb(35, 33, 33);
 }
 
 .btn {
