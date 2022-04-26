@@ -70,7 +70,7 @@
 
     &__2 {
         @include desktop-only {
-            @include row-start-center;
+            @include row-start-spacearound;
             
         }
     }
