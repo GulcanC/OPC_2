@@ -34,6 +34,13 @@
     align-items: center;
 }
 
+@mixin row-start-spacearound{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: flex-start;
+}
+
 @mixin row-start-center{
     display: flex;
     flex-direction: row;
