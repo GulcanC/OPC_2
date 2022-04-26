@@ -98,23 +98,6 @@
 
 }
 
-  /* KEYFRAMES ANIMATIONS FOR MEALS */
-  
-  .meal{
-    &--1 {
-      animation: slide-in 500ms;
-    }
-    &--2 {
-      animation: slide-in 1000ms;
-    }
-    &--3 {
-      animation: slide-in 1500ms;
-    }
-    &--4 {
-      animation: slide-in 2000ms;
-    }
-  
-  }
 
 .meals {
     background: $color-white;
