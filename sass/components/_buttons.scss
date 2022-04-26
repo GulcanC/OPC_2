@@ -1,0 +1,29 @@
+$border-radius:(small:3rem, medium:5rem, large: 7rem);
+
+$text-color:(white:$color-white, black:$color-black);
+
+.btn {
+    text-decoration: none;
+    box-shadow: $box-shadow;
+    font-family: "Roboto";
+    @include column-center;
+
+    &--pink {
+        @include gradient-bg;
+        padding: $padding-small;
+        border-radius: map-get($map:$border-radius, $key:medium);
+        color: map-get($map:$text-color, $key:white);
+        margin: $margin-medium;
+        text-align: center;
+        @include animation-translate;
+    }
+}
+
+.menu--btn {
+
+    width: 20rem;
+    margin: auto;
+    margin-top: $margin-medium;
+    font-family: "Roboto";
+
+}
