@@ -5,7 +5,7 @@
   "scripts": {
     "sass": "sass --watch ./dist/sass/main.scss:./dist/public/css/style.css",
     "prefix": "postcss ./dist/public/css/style.css --use autoprefixer -d ./public/css/prefixed",
-    "deploy":"gh-pages -d .dist/public"
+    "deploy":"gh-pages -d ./dist/public"
   },
   "keywords": [],
   "author": "GULCAN COSKUN",
