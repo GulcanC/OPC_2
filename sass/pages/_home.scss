@@ -14,13 +14,15 @@
         width: 15rem;
         text-align: center;
 
-        &   .bounce1{
+        & .bounce1 {
             background: $color-secondary;
         }
-        & .bounce2{
+
+        & .bounce2 {
             background: $color-tertiary;
         }
-        & .bounce3{
+
+        & .bounce3 {
             background: $color-white;
         }
     }
@@ -33,36 +35,21 @@
     height: 2.5rem;
     border-radius: 100%;
     display: inline-block;
-    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
-
-   
+    animation: bounce 1.4s infinite ease-in-out both;
 }
 
-.spinner .bounce1{
+.spinner .bounce1 {
     animation-delay: -0.62s;
 }
 
 .spinner .bounce2 {
     animation-delay: -0.36s;
 }
+
 .spinner .bounce3 {
     animation-delay: -0.16s;
 }
 
-
-
-@keyframes sk-bouncedelay {
-
-    0%,
-    80%,
-    100% {
-        transform: scale(0);
-    }
-
-    40% {
-        transform: scale(1.0);
-    }
-}
 
 
 $font-families:(roboto:"Roboto", shrikhand:"Shrikhand");
@@ -147,7 +134,7 @@ $font-families:(roboto:"Roboto", shrikhand:"Shrikhand");
 
                 :nth-child(2) {
                     color: $color-primary;
-                    @include animation-transition;
+
                 }
             }
 

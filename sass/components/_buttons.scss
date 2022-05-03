@@ -16,6 +16,10 @@ $text-color:(white:$color-white, black:$color-black);
         margin: $margin-medium;
         text-align: center;
         @include animation-translate;
+
+        &:hover {
+            opacity: .7;
+        }
     }
 }
 
