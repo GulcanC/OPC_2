@@ -27,6 +27,14 @@
     opacity: 0;
   }
 }
+@keyframes bounce {
+  0%, 80%, 100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
 /* KEYFRAMES FOR MEALS */
 /* KEYFRAMES ANIMATIONS FOR MEALS */
 @keyframes slide-in {
@@ -174,6 +182,9 @@ P {
   transform: translateX(0px) translateY(-5px);
   box-shadow: rgba(14, 14, 16, 0.55) 0px 13px 27px -5px, rgba(0, 0, 0, 0.8) 0px 8px 16px -8px;
 }
+.btn--pink:hover {
+  opacity: 0.7;
+}
 
 .menu--btn {
   width: 20rem;
@@ -233,7 +244,6 @@ P {
   background: transparent;
   width: 2rem;
   height: 2rem;
-  background: transparent;
 }
 .cards--icons > i {
   position: absolute;
@@ -411,7 +421,7 @@ footer ul li i {
   height: 2.5rem;
   border-radius: 100%;
   display: inline-block;
-  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: bounce 1.4s infinite ease-in-out both;
 }
 
 .spinner .bounce1 {
@@ -426,14 +436,6 @@ footer ul li i {
   animation-delay: -0.16s;
 }
 
-@keyframes sk-bouncedelay {
-  0%, 80%, 100% {
-    transform: scale(0);
-  }
-  40% {
-    transform: scale(1);
-  }
-}
 /* 1. Section Location  */
 #location {
   display: flex;
@@ -532,8 +534,6 @@ footer ul li i {
 }
 #function .function--btn:hover :nth-child(2) {
   color: #9356DC;
-  transition-duration: 0.1s;
-  transition-delay: 0.3s;
 }
 #function .function--btn i {
   color: rgb(134, 132, 132);
