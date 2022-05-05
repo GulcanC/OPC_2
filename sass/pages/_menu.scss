@@ -63,6 +63,7 @@
 
     @include desktop-large {
         @include row-space-around;
+       
 
     }
 
@@ -70,7 +71,7 @@
 
     &__2 {
         @include desktop-only {
-            @include row-start-spacearound;
+            @include row-space-around;
             
         }
     }
@@ -120,13 +121,14 @@
 
 
     @include desktop-only {
-        width: 22rem;
-      
+        width: 23rem;
+        margin: 1rem;
     }
 
 
     @include desktop-large {
-        width: 30rem;
+        width: 100%;
+        margin: 1rem;
 
     }
 
