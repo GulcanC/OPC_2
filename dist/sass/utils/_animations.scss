@@ -31,11 +31,11 @@
   0%,
   80%,
   100% {
-      transform: scale(0);
+    transform: scale(0);
   }
 
   40% {
-      transform: scale(1.0);
+    transform: scale(1.0);
   }
 }
 
@@ -53,14 +53,15 @@
 
   to {
     transform: translateY(0%);
-  }}
+  }
+}
 
 
 .slide-in {
   &--1 {
     animation: slide-in 2s;
   }
-  
+
 
   &--2 {
     animation: slide-in 4s;
@@ -78,35 +79,40 @@
 
 
 
-@keyframes menu{
+@keyframes menu {
   0% {
-  
+
     transform: translateY(30px);
     opacity: 0;
-  
+
   }
 
   50% {
-  
+
     transform: translateY(30px);
     opacity: 0;
-  
+
   }
 
   100% {
-    
+
     transform: translateY(0);
     opacity: 1;
-   
+
   }
 }
 
 .menu {
-  
-  &-1 {animation: menu 2s  ease-in-out;
- }
-  &-2 {animation: menu 4s ease-in-out;
-}
-  &-3 {animation: menu 6s ease-in-out;
+
+  &-1 {
+    animation: menu 2s ease-in-out;
+  }
+
+  &-2 {
+    animation: menu 4s ease-in-out;
+  }
+
+  &-3 {
+    animation: menu 6s ease-in-out;
   }
 }

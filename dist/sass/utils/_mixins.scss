@@ -1,4 +1,4 @@
-/* Mixin for flexbox */ 
+/* Mixin for flexbox */
 
 @mixin column-start {
     display: flex;
@@ -34,17 +34,17 @@
     align-items: center;
 }
 
-@mixin row-start-spacearound{
+@mixin row-start-spacearound {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: flex-start;
 }
 
-@mixin row-start-center{
+@mixin row-start-center {
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     align-items: flex-start;
 }
 
@@ -107,8 +107,8 @@
     color: map-get($font-colors, $color-black);
 }
 
-@mixin gradient-bg{
-    background-image: linear-gradient( to top left, $color-primary , $color-secondary);
+@mixin gradient-bg {
+    background-image: linear-gradient(to top left, $color-primary, $color-secondary);
 }
 
 @mixin ellipsis {
@@ -116,43 +116,44 @@
     text-overflow: ellipsis;
     overflow: hidden;
 }
+
 /* Mixin for Animations */
 
 @mixin animation-translate {
     transition-duration: 1s;
     transition-delay: .5s;
-  
+
     &:hover {
-      transform: translateX(0px) translateY(-5px);
-      box-shadow: $box-shadow1;
+        transform: translateX(0px) translateY(-5px);
+        box-shadow: $box-shadow1;
     }
-  
-  }
-  
-  @mixin animation-transition {
+
+}
+
+@mixin animation-transition {
     transition-duration: .1s;
     transition-delay: .3s;
-  
-  }
-  
-  /* l'effet de grossissment */
-  
-  /*  transition-property: transform;
+
+}
+
+/* l'effet de grossissment */
+
+/*  transition-property: transform;
     transition-duration: 300ms; */
-  
-  @mixin scale-large {
+
+@mixin scale-large {
     transform: scale(1);
     transition: transform 300ms, text-shadow 200ms;
-  
-    &:hover {
-      transform: scale(1.15);
-      text-shadow: $text-shadow;
-  
-    }
-  }
 
- 
-/* Media queries */ 
+    &:hover {
+        transform: scale(1.15);
+        text-shadow: $text-shadow;
+
+    }
+}
+
+
+/* Media queries */
 
 $breakpoints: (xsmall:350px, mobile:599px, tablette:768px, desktop:1600px);
 
@@ -178,6 +179,7 @@ $breakpoints: (xsmall:350px, mobile:599px, tablette:768px, desktop:1600px);
 
     }
 }
+
 @mixin desktop-large {
     @media screen and (max-width:map-get($breakpoints, desktop)) and (min-width:992px) {
         @content;
@@ -186,7 +188,7 @@ $breakpoints: (xsmall:350px, mobile:599px, tablette:768px, desktop:1600px);
 }
 
 @mixin xsmall {
-    @media screen and (max-width:map-get($breakpoints, xsmall)){
+    @media screen and (max-width:map-get($breakpoints, xsmall)) {
         @content;
 
     }
