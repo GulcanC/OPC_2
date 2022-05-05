@@ -12,13 +12,20 @@
 
         @include animation-translate;
 
+        @include desktop-large {
+          
+            width: 65rem;
+            height: auto;
+            margin: 2rem;
+        }
+
         @include desktop-only {
-            width:50rem;
+            width: 50rem;
             margin: 2rem;
         }
 
         @include tablet-only {
-            width:50rem;
+            width: 50rem;
             margin: 2rem;
         }
     }
@@ -81,21 +88,20 @@
 
     &--block--1,
     &--block--2 {
+
+        @include desktop-large {
+            @include row-center;
+
+        }
+
         @include desktop-only {
             @include row-center;
-          
-          
-           
-            margin-left: 0;
-           
+
         }
 
         @include tablet-only {
             @include row-center;
-          
-           
-            margin-left: 0;
-            
+
         }
 
     }

@@ -155,7 +155,7 @@
 
 /* Media queries */
 
-$breakpoints: (xsmall:350px, mobile:599px, tablette:768px, desktop:1600px);
+$breakpoints: (xsmall:350px, mobile:599px, tablette:768px, desktop:1600px, xlarge:1900px);
 
 
 @mixin tablet-only {
@@ -181,7 +181,7 @@ $breakpoints: (xsmall:350px, mobile:599px, tablette:768px, desktop:1600px);
 }
 
 @mixin desktop-large {
-    @media screen and (max-width:map-get($breakpoints, desktop)) and (min-width:992px) {
+    @media screen and (max-width:map-get($breakpoints, xlarge)) and (min-width:1600px) {
         @content;
 
     }
