@@ -632,6 +632,11 @@ p.cards--text {
     height: 40rem;
   }
 }
+@media screen and (max-width: 2500px) and (min-width: 1600px) {
+  .header--menu--img {
+    height: 50rem;
+  }
+}
 
 .main__menu {
   background: rgb(236, 236, 236);
