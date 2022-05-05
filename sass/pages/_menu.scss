@@ -14,6 +14,9 @@
     @include desktop-only {
         height: 40rem;
     }
+    @include desktop-large {
+        height: 50rem;
+    }
 
 }
 
