@@ -30,9 +30,20 @@ P {
     }
 
     &--black {
-        color:$color-black;
+        color: $color-black;
     }
+
     &--tertiary {
-        color:$color-tertiary;
+        color: $color-tertiary;
+    }
+}
+
+a {
+
+    &:link,
+    &:visited,
+    &:hover,
+    &:active {
+        text-decoration: none;
     }
 }
