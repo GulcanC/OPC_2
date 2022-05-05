@@ -13,11 +13,13 @@
         @include animation-translate;
 
         @include desktop-only {
-            width: 50rem;
+            width:50rem;
+            margin: 2rem;
         }
 
         @include tablet-only {
-            width: 50rem;
+            width:50rem;
+            margin: 2rem;
         }
     }
 
@@ -81,12 +83,19 @@
     &--block--2 {
         @include desktop-only {
             @include row-center;
-            gap: 3rem;
+          
+          
+           
+            margin-left: 0;
+           
         }
 
         @include tablet-only {
             @include row-center;
-            gap: 3rem;
+          
+           
+            margin-left: 0;
+            
         }
 
     }
