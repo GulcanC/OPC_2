@@ -91,17 +91,18 @@ $font-families:(roboto:"Roboto", shrikhand:"Shrikhand");
         @include column-center;
 
         & h1 {
-            margin:auto;
+            margin: auto;
         }
 
     }
 
-    @include tablet-only {
+    @include desktop-large {
         @include column-center;
 
         & h1 {
-            margin-right: 0;
+            margin: auto;
         }
+
     }
 
 

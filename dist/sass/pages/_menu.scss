@@ -14,6 +14,7 @@
     @include desktop-only {
         height: 40rem;
     }
+
     @include desktop-large {
         height: 50rem;
     }
@@ -28,13 +29,14 @@
 
 }
 
-.cards--icons--menu{
+.cards--icons--menu {
     position: absolute;
     top: 8rem;
-    @include xsmall{
+
+    @include xsmall {
         top: 7.5rem;
-    } 
- 
+    }
+
 }
 
 .menu__title {
@@ -44,14 +46,14 @@
     align-items: center;
     padding: 4rem 2rem;
 
-    @include xsmall{
-        font-size: small;  
+    @include xsmall {
+        font-size: small;
     }
 
 
 }
 
-.cards--icons{
+.cards--icons {
     margin-top: -3rem;
 }
 
@@ -61,12 +63,12 @@
 
     @include desktop-only {
         @include row-center;
-      
+
     }
 
     @include desktop-large {
         @include row-space-around;
-       
+
 
     }
 
@@ -74,8 +76,13 @@
 
     &__2 {
         @include desktop-only {
-            @include row-space-around;
-            
+            @include row-start-center;
+
+        }
+
+        @include desktop-large {
+            @include row-start-center;
+
         }
     }
 }
@@ -125,13 +132,19 @@
 
     @include desktop-only {
         width: 23rem;
-        margin: 1rem;
+        margin: $margin-small;
     }
 
 
     @include desktop-large {
-        width: 100%;
-        margin: 1rem;
+        width: 40rem;
+        margin: $margin-small;
+
+    }
+
+    @include normal {
+        width: 30rem;
+        margin: $margin-small;
 
     }
 

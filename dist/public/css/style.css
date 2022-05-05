@@ -3,7 +3,6 @@
 /* l'effet de grossissment */
 /*  transition-property: transform;
     transition-duration: 300ms; */
-/* Media queries */
 /* Animation for loader */
 @keyframes loader {
   0% {
@@ -496,7 +495,7 @@ footer ul li i {
     margin: auto;
   }
 }
-@media screen and (max-width: 768px) and (min-width: 599px) {
+@media screen and (max-width: 2500px) and (min-width: 1600px) {
   #function {
     display: flex;
     flex-direction: column;
@@ -504,7 +503,7 @@ footer ul li i {
     align-items: center;
   }
   #function h1 {
-    margin-right: 0;
+    margin: auto;
   }
 }
 #function .function {
@@ -699,8 +698,16 @@ p.cards--text {
   .full__menu__2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+@media screen and (max-width: 2500px) and (min-width: 1600px) {
+  .full__menu__2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
   }
 }
 
@@ -744,13 +751,19 @@ p.cards--text {
 @media screen and (max-width: 1600px) and (min-width: 768px) {
   .meals {
     width: 23rem;
-    margin: 1rem;
+    margin: 1.3rem;
   }
 }
 @media screen and (max-width: 2500px) and (min-width: 1600px) {
   .meals {
-    width: 100%;
-    margin: 1rem;
+    width: 40rem;
+    margin: 1.3rem;
+  }
+}
+@media screen and (max-width: 1600px) and (min-width: 992px) {
+  .meals {
+    width: 30rem;
+    margin: 1.3rem;
   }
 }
 .meals:hover > .menu--price__icon {
