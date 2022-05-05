@@ -128,6 +128,9 @@ $font-families:(roboto:"Roboto", shrikhand:"Shrikhand");
             position: relative;
             box-shadow: $box-shadow;
             @include animation-transition;
+            @include desktop-tablet {
+                width: 22rem;
+            }
 
             &:hover {
                 background: $color-primary-light;
