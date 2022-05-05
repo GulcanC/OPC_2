@@ -109,6 +109,11 @@ $font-families:(roboto:"Roboto", shrikhand:"Shrikhand");
     & .function {
         @include column-center;
 
+        @include desktop-large {
+
+            @include row-center;
+        }
+
         @include desktop-only {
             @include row-center;
         }
@@ -128,6 +133,7 @@ $font-families:(roboto:"Roboto", shrikhand:"Shrikhand");
             position: relative;
             box-shadow: $box-shadow;
             @include animation-transition;
+
             @include desktop-tablet {
                 width: 22rem;
             }
@@ -183,7 +189,7 @@ $font-families:(roboto:"Roboto", shrikhand:"Shrikhand");
 }
 
 
-    h3.cards--title, p.cards--text {
-        color: $color-black;
-    }
-   
+h3.cards--title,
+p.cards--text {
+    color: $color-black;
+}

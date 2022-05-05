@@ -207,6 +207,13 @@ a:link, a:visited, a:hover, a:active {
   transform: translateX(0px) translateY(-5px);
   box-shadow: rgba(14, 14, 16, 0.55) 0px 13px 27px -5px, rgba(0, 0, 0, 0.8) 0px 8px 16px -8px;
 }
+@media screen and (max-width: 1900px) and (min-width: 1600px) {
+  .cards--1, .cards--2, .cards--3, .cards--4 {
+    width: 65rem;
+    height: auto;
+    margin: 2rem;
+  }
+}
 @media screen and (max-width: 1600px) and (min-width: 768px) {
   .cards--1, .cards--2, .cards--3, .cards--4 {
     width: 50rem;
@@ -269,13 +276,20 @@ a:link, a:visited, a:hover, a:active {
   font-size: 2.5rem;
   bottom: 0;
 }
+@media screen and (max-width: 1900px) and (min-width: 1600px) {
+  .cards--block--1, .cards--block--2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
 @media screen and (max-width: 1600px) and (min-width: 768px) {
   .cards--block--1, .cards--block--2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-left: 0;
   }
 }
 @media screen and (max-width: 768px) and (min-width: 599px) {
@@ -284,7 +298,6 @@ a:link, a:visited, a:hover, a:active {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-left: 0;
   }
 }
 .cards--image--1 {
@@ -500,6 +513,14 @@ footer ul li i {
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 1900px) and (min-width: 1600px) {
+  #function .function {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
 @media screen and (max-width: 1600px) and (min-width: 768px) {
   #function .function {
     display: flex;
@@ -579,7 +600,8 @@ footer ul li i {
   }
 }
 
-h3.cards--title, p.cards--text {
+h3.cards--title,
+p.cards--text {
   color: rgb(35, 33, 33);
 }
 
@@ -654,7 +676,7 @@ h3.cards--title, p.cards--text {
     align-items: center;
   }
 }
-@media screen and (max-width: 1600px) and (min-width: 992px) {
+@media screen and (max-width: 1900px) and (min-width: 1600px) {
   .full__menu {
     display: flex;
     flex-direction: row;
@@ -713,7 +735,7 @@ h3.cards--title, p.cards--text {
     width: 22rem;
   }
 }
-@media screen and (max-width: 1600px) and (min-width: 992px) {
+@media screen and (max-width: 1900px) and (min-width: 1600px) {
   .meals {
     width: 30rem;
   }
