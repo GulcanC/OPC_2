@@ -91,7 +91,7 @@ $font-families:(roboto:"Roboto", shrikhand:"Shrikhand");
         @include column-center;
 
         & h1 {
-            margin-right: 0;
+            margin:auto;
         }
 
     }
@@ -180,6 +180,13 @@ $font-families:(roboto:"Roboto", shrikhand:"Shrikhand");
     background: $light-grey;
 
     @include desktop-only {
+        h1 {
+            margin: auto;
+            margin-bottom: $margin-medium;
+        }
+    }
+
+    @include desktop-large {
         h1 {
             margin: auto;
             margin-bottom: $margin-medium;

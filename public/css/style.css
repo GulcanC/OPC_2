@@ -207,7 +207,7 @@ a:link, a:visited, a:hover, a:active {
   transform: translateX(0px) translateY(-5px);
   box-shadow: rgba(14, 14, 16, 0.55) 0px 13px 27px -5px, rgba(0, 0, 0, 0.8) 0px 8px 16px -8px;
 }
-@media screen and (max-width: 1900px) and (min-width: 1600px) {
+@media screen and (max-width: 2500px) and (min-width: 1600px) {
   .cards--1, .cards--2, .cards--3, .cards--4 {
     width: 65rem;
     height: auto;
@@ -276,7 +276,7 @@ a:link, a:visited, a:hover, a:active {
   font-size: 2.5rem;
   bottom: 0;
 }
-@media screen and (max-width: 1900px) and (min-width: 1600px) {
+@media screen and (max-width: 2500px) and (min-width: 1600px) {
   .cards--block--1, .cards--block--2 {
     display: flex;
     flex-direction: row;
@@ -493,7 +493,7 @@ footer ul li i {
     align-items: center;
   }
   #function h1 {
-    margin-right: 0;
+    margin: auto;
   }
 }
 @media screen and (max-width: 768px) and (min-width: 599px) {
@@ -513,7 +513,7 @@ footer ul li i {
   justify-content: center;
   align-items: center;
 }
-@media screen and (max-width: 1900px) and (min-width: 1600px) {
+@media screen and (max-width: 2500px) and (min-width: 1600px) {
   #function .function {
     display: flex;
     flex-direction: row;
@@ -599,6 +599,12 @@ footer ul li i {
     margin-bottom: 2rem;
   }
 }
+@media screen and (max-width: 2500px) and (min-width: 1600px) {
+  #card h1 {
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+}
 
 h3.cards--title,
 p.cards--text {
@@ -676,7 +682,7 @@ p.cards--text {
     align-items: center;
   }
 }
-@media screen and (max-width: 1900px) and (min-width: 1600px) {
+@media screen and (max-width: 2500px) and (min-width: 1600px) {
   .full__menu {
     display: flex;
     flex-direction: row;
@@ -735,7 +741,7 @@ p.cards--text {
     width: 22rem;
   }
 }
-@media screen and (max-width: 1900px) and (min-width: 1600px) {
+@media screen and (max-width: 2500px) and (min-width: 1600px) {
   .meals {
     width: 30rem;
   }
