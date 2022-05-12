@@ -194,17 +194,10 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .cards--1, .cards--2, .cards--3, .cards--4 {
-  margin-bottom: 2rem;
   height: 100%;
-  border-radius: 1.5rem;
+  border-radius: 2.5rem;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-  position: relative;
-  transition-duration: 1s;
-  transition-delay: 0.5s;
-}
-.cards--1:hover, .cards--2:hover, .cards--3:hover, .cards--4:hover {
-  transform: translateX(0px) translateY(-5px);
-  box-shadow: rgba(14, 14, 16, 0.55) 0px 13px 27px -5px, rgba(0, 0, 0, 0.8) 0px 8px 16px -8px;
+  padding: 0 4rem;
 }
 @media screen and (max-width: 2500px) and (min-width: 1600px) {
   .cards--1, .cards--2, .cards--3, .cards--4 {
@@ -225,6 +218,21 @@ a:link, a:visited, a:hover, a:active {
     margin: 2rem;
   }
 }
+@media screen and (max-width: 768px) and (min-width: 599px) {
+  .cards--1, .cards--2, .cards--3, .cards--4 {
+    padding: 0 !important;
+  }
+}
+@media screen and (max-width: 1600px) and (min-width: 768px) {
+  .cards--1, .cards--2, .cards--3, .cards--4 {
+    padding: 0 !important;
+  }
+}
+@media screen and (max-width: 2500px) and (min-width: 1600px) {
+  .cards--1, .cards--2, .cards--3, .cards--4 {
+    padding: 0 !important;
+  }
+}
 .cards--detail {
   position: absolute;
   top: 1rem;
@@ -234,6 +242,13 @@ a:link, a:visited, a:hover, a:active {
   background-color: #99E2D0;
   padding: 0.8rem 1.8rem;
   border-radius: 0.25rem;
+}
+@media screen and (max-width: 599px) and (min-width: 768px) {
+  .cards--detail {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
 }
 .cards--body {
   background: #fff;
@@ -299,6 +314,9 @@ a:link, a:visited, a:hover, a:active {
     align-items: center;
   }
 }
+.cards--block--1 {
+  margin-bottom: -1.1rem !important;
+}
 .cards--image--1 {
   background-image: url("../../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
   background-size: cover;
@@ -306,6 +324,7 @@ a:link, a:visited, a:hover, a:active {
   width: 100%;
   height: 20rem;
   border-radius: 1rem 1rem 0 0;
+  position: relative;
 }
 .cards--image--2 {
   background-image: url("../../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
@@ -314,6 +333,7 @@ a:link, a:visited, a:hover, a:active {
   width: 100%;
   height: 20rem;
   border-radius: 1rem 1rem 0 0;
+  position: relative;
 }
 .cards--image--3 {
   background-image: url("../../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
