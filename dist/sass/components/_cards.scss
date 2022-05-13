@@ -10,7 +10,6 @@
         padding: 0 4rem;
 
 
-
         @include desktop-large {
 
             width: 65rem;
@@ -101,16 +100,20 @@
 
         &--fill {
             opacity: 0;
+            transition: 2s;
+         
+
 
             &:hover {
-                transform: scale(0.87);
-                color: transparent;
                 @include gradient-bg;
+                color: transparent;
                 -webkit-background-clip: text;
                 background-clip: text;
-                opacity: 1;
-                font-size: 2.5rem;
                 bottom: 0;
+                opacity: 1;
+                transform: scale(1.3)
+                
+
             }
 
         }
