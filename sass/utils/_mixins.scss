@@ -109,6 +109,7 @@
 
 @mixin gradient-bg {
     background-image: linear-gradient(to top left, $color-primary, $color-secondary);
+  
 }
 
 @mixin ellipsis {
@@ -136,6 +137,17 @@
 
 }
 
+@mixin animation-translate1 {
+    transition-duration: 1s;
+    transition-delay: .5s;
+
+    &:hover {
+        transform: translateX(0px) translateY(-5px);
+      
+    }
+
+}
+
 /* l'effet de grossissment */
 
 /*  transition-property: transform;
@@ -157,7 +169,14 @@
 
 // Map-get function
 
-$breakpoints: (xsmall:350px, mobile:599px, tablette:768px, screen-normal:992px, desktop:1600px, xlarge:2500px);
+$breakpoints: (
+    xsmall:350px,
+    mobile:599px,
+    tablette:768px,
+    screen-normal:992px,
+    desktop:1600px,
+    xlarge:2500px
+);
 
 @mixin mobile-only {
     @media screen and (max-width:map-get($breakpoints, mobile)) and (min-width:map-get($breakpoints, tablette)) {
