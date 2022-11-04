@@ -11,11 +11,11 @@ Au sein du Projet n°3 du parcours Développeur Web chez OpenClassrooms j'ai rea
 
 **Sass** signifie Syntactically Awesome Style Sheet, une technologie qui améliore mon codebase et je simplifie la vie! 
 
-D'ailleurs, j'ai utilisé **autoprixer** pour ce projet. **Autoprefixer** est un plugin qui vous évitera de -webkit-, -o- et -moz-. Il ajoute automatiquement des préfixes à votre CSS. Il vous suffit de lui fournir une feuille CSS et il passera par là pour ajouter les préfixes si nécessaire.
+D'ailleurs, j'ai utilisé **autoprefixer** pour ce projet. **Autoprefixer** est un plugin qui vous évitera de -webkit-, -o- et -moz-. Il ajoute automatiquement des préfixes à votre CSS. Il vous suffit de lui fournir une feuille CSS et il passera par là pour ajouter les préfixes si nécessaire.
 
 Par ailleurs, j'ai utilisé **les pages github** afin de mettre en ligne mon site web.
 
-Pour ce projet, mon site web, Ohmyfood!, est le site web d’une jeune startup qui voudrait s'imposer sur le marché de la restauration et qui répertorie les menus de restaurants gastronomiques. 
+Pour ce projet, mon site web, Ohmyfood!, qui est le site web d’une jeune startup qui voudrait s'imposer sur le marché de la restauration et qui répertorie les menus de restaurants gastronomiques. 
 
 ### :large_orange_diamond: Les Objectifs du Projet
 
@@ -77,10 +77,7 @@ Pour ce projet, mon site web, Ohmyfood!, est le site web d’une jeune startup q
     npm run deploy 
 
 
-<details>
- <summary>Regardez dans le fichier de package.json</summary>
-![image](https://user-images.githubusercontent.com/80323415/165303862-b5d118aa-ccfd-462e-a235-7339004bdf57.png)
-</details>
+
 
 
 
