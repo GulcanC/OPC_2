@@ -25,7 +25,7 @@ Pour ce projet, mon site web, Ohmyfood!, qui est le site web d’une jeune start
 
 💧 Pratiquer le préprocesseur CSS appelé Sass, Syntactically Awesome Style Sheet 
 
-💧 Utiliser **@keyframes** and **@mixin** de Sass pour des animations
+💧 Utiliser **@keyframes** and **@mixins** de Sass pour des animations
 
 💧 Utiliser des commandes de Git et **les pages github** afin de mettre en ligne mon site web.
 
